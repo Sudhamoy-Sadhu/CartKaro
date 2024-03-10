@@ -28,11 +28,11 @@
             </div>
             <div class="main-content">
                 <div class="header">
-                    <div class="shop-name" id="shopName">Anupama Cosmetics and Parlour</div>
+                    <div class="shop-name" id="shopName">Joy Ma Tara</div>
                     <div class="profile">
                         <div class="info"><strong>Anupama</strong><br>Emp_1</div>
                         <div class="circle">
-                            <img src="{{ asset('images/anupama.jpg') }}" alt="Image" id="mode">
+                            <img src="" alt="Image" id="mode">
                         </div>
                     </div>
                 </div>
