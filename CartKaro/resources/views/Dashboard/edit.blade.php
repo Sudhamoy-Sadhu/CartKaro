@@ -4,5 +4,6 @@
 @endpush
 @section('content')
     {{--Enter Your Code Here--}}
+    {{-- Route of your page is /edit --}}
     I am Abhisikta 
 @endsection

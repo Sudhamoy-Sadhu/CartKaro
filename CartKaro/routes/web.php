@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/analysis', function () {
     return view('Dashboard.analysis');
 });
+Route::get('/edit', function () {
+    return view('Dashboard.edit');
+});
+Route::get('/addmembers', function () {
+    return view('Dashboard.addmembers');
+});
