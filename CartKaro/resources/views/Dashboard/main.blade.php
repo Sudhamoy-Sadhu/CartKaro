@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
-    <title>Dashboard</title>
+    @stack('title')
     <style>
 
     </style>
@@ -30,13 +30,14 @@
                 <div class="header">
                     <div class="shop-name" id="shopName">Joy Ma Tara</div>
                     <div class="profile">
-                        <div class="info"><strong>Anupama</strong><br>Emp_1</div>
+                        <div class="info"><strong>Sudhamoy</strong><br>Emp_1</div>
                         <div class="circle">
                             <img src="" alt="Image" id="mode">
                         </div>
                     </div>
                 </div>
-                <div class="content">
+                <div class="contenter">
+                    @yield('content')
                 </div>
             </div>
         </div>

@@ -109,6 +109,9 @@ img{
     font-size: 0.8rem;
     padding: 12px;
 }
+.content{
+    font-size: 2rem;
+}
 .dark .big-container{
     background: #4A4A4A;
 }
