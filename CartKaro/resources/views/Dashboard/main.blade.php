@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/dashboard.css') }}">
     @stack('title')
     <style>
 
@@ -42,7 +43,7 @@
             </div>
         </div>
     </div>
-    <script src="{{ asset('js/dashboard.js') }}"></script>
+    <script src="{{ URL::asset('js/dashboard.js') }}"></script>
 </body>
 
 </html>
