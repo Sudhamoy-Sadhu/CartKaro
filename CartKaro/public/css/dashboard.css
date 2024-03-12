@@ -109,8 +109,13 @@ img{
     font-size: 0.8rem;
     padding: 12px;
 }
-.content{
-    font-size: 2rem;
+.contenter{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .dark .big-container{
     background: #4A4A4A;

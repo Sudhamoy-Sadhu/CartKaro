@@ -1,0 +1,79 @@
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 80%;
+    /* background: blue; */
+    font-size: 1.3rem;
+    border-bottom: 2px solid black;
+}
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 80%;
+    /* background: red; */
+    font-size: 1.3rem;
+}
+.left{
+    /* background: green; */
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.right{
+    /* background: greenyellow; */
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+input{
+    width: 90%;
+    height: 28px;
+    background: #D9D9D9;
+    border: none;
+    padding: 0 0 0 10px;
+}
+select{
+    width: 90%;
+    height: 28px;
+    background: #D9D9D9;
+    border: none;
+}
+
+h2{
+    margin: 0 0 20px 0;
+}
+.profile-details{
+    height: 100%;
+    /* width: auto; */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.details{
+    margin: 0 0 10px 0;
+}
+
+input[type = 'button']{
+    background: #74BD5A;
+    border-radius: 20px;
+    width: 40%;
+    font-weight: 700;
+    height: 40px;
+    text-align: center;
+}
+
+input[type = 'file']{
+    width: 22%;
+    background: none;
+}
