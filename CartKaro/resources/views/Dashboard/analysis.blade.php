@@ -1,4 +1,4 @@
-@extends('Dashboard.main');
+@extends('Dashboard.main')
 @push('title')
     <title>Dashboard - Analysis</title> {{-- Enter Your Page Title Here--}}
 @endpush
