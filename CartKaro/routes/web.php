@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Dashboard.main');
 });
+Route::get('/edit', function () {
+    return view('Dashboard.edit');
+});
+Route::get('/analysis', function () {
+    return view('Dashboard.analysis');
+});
+Route::get('/addmember', function () {
+    return view('Dashboard.addmember');
+});
