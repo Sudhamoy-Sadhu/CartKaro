@@ -34,8 +34,8 @@
         <div class="right">
             <input type="button" value="Add Members">
             <h5>Profile Image</h5>
-            <div class="circle">
-                <img src="" alt="profile image">
+            <div class="circle2">
+                <img src="{{ URL::asset('image/anupama.jpg') }}" alt="profile image">
             </div>
             <input type="file" name="image" id="uploadFile">
         </div>

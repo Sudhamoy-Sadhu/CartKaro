@@ -92,11 +92,19 @@ a{
     align-items: center;
 }
 .circle{
-    height: 50px;
+    height: 40px;
+    width: 40px;
+    margin: -5px;
+    border-radius: 50%;
+    background: red;
+    overflow: hidden;
+}
+.circle2{
+    height: 80px;
     width: 80px;
     margin: -5px;
     border-radius: 50%;
-    /* background: red; */
+    background: red;
     overflow: hidden;
 }
 img{

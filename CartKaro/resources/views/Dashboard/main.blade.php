@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ URL::asset('css/dashboard.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/addmember.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/edit.css') }}">
     @stack('title')
     <style>
 
@@ -32,9 +33,9 @@
                 <div class="header">
                     <div class="shop-name" id="shopName">Joy Ma Tara</div>
                     <div class="profile">
-                        <div class="info"><strong>Sudhamoy</strong><br>Emp_1</div>
+                        <div class="info"><strong>Anupama</strong><br>Emp_1</div>
                         <div class="circle">
-                            <img src="" alt="Image" id="mode">
+                            <img src="{{ URL::asset('image/anupama.jpg') }}" alt="Image" id="mode">
                         </div>
                     </div>
                 </div>
