@@ -5,5 +5,5 @@
 @section('content')
     {{--Enter Your Code Here--}}
     {{-- Route of your page is /addmembers --}}
-    I am Anupama
+    
 @endsection
