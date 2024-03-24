@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AddmemberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +26,4 @@ Route::get('/analysis', function () {
 Route::get('/addmember', function () {
     return view('Dashboard.addmember');
 });
+
